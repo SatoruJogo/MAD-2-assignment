@@ -1,0 +1,43 @@
+name: prepo
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  get: ^4.7.2
+  shared_preferences: ^2.0.15  
+  uuid: ^4.0.0
+  image_picker: ^1.1.0
+  sensors_plus: ^2.0.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  permission_handler: ^11.3.0
+  battery_plus: ^4.0.2
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Added assets
+  assets:
+    - assets/welcome_image.jpg
+    - assets/meal1.jpg
+    - assets/meal2.jpg
+    - assets/meal3.jpg
+    - assets/meal4.jpg
+    - assets/meal5.jpg
+    - assets/profile_picture.webp
+    - assets/about_image.jpeg
